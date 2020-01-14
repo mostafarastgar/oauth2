@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "61ab54a5-b575-448e-9385-5f635bd2f41c",
+		"name": "oauth2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "this is an oauth2 post"
+			},
+			"response": []
+		},
+		{
+			"name": "create-user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "this is an oauth2 post"
+			},
+			"response": []
+		},
+		{
+			"name": "current",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "this is an oauth2 post"
+			},
+			"response": []
+		},
+		{
+			"name": "read-protected-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "this is an oauth2 post"
+			},
+			"response": []
+		}
+	]
+}
