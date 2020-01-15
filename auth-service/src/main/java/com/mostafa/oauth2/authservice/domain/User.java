@@ -1,6 +1,6 @@
-package com.mostafa.authservice.domain;
+package com.mostafa.oauth2.authservice.domain;
 
-import com.mostafa.authservice.enums.Authorities;
+import com.mostafa.oauth2.authservice.enums.Authorities;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;

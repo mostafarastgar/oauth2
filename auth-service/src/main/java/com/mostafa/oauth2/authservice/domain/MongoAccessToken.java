@@ -1,6 +1,6 @@
-package com.mostafa.authservice.domain;
+package com.mostafa.oauth2.authservice.domain;
 
-import com.mostafa.authservice.util.SerializableObjectConverter;
+import com.mostafa.oauth2.authservice.util.SerializableObjectConverter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;

@@ -1,6 +1,6 @@
-package com.mostafa.authservice.config;
+package com.mostafa.oauth2.authservice.config;
 
-import com.mostafa.authservice.service.CustomUserDetailsService;
+import com.mostafa.oauth2.authservice.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.mostafa.accountservice.dto;
+package com.mostafa.oauth2.accountservice.dto;
 
 import java.io.Serializable;
 

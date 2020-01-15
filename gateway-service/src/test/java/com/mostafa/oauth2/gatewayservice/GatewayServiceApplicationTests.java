@@ -1,4 +1,4 @@
-package com.mostafa.registryservice;
+package com.mostafa.oauth2.gatewayservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RegistryServiceApplicationTests {
+public class GatewayServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

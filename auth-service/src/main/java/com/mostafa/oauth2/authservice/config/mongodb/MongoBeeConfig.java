@@ -1,4 +1,4 @@
-package com.mostafa.authservice.config.mongodb;
+package com.mostafa.oauth2.authservice.config.mongodb;
 
 import com.github.mongobee.Mongobee;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import com.mostafa.oauth2.authservice.config.mongodb.MongoProperties;
 
 @Configuration
 @DependsOn("mongoTemplate")

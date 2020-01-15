@@ -1,4 +1,4 @@
-package com.mostafa.configserver;
+package com.mostafa.oauth2.configserver;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

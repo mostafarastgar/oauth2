@@ -1,4 +1,4 @@
-package com.mostafa.authservice.domain;
+package com.mostafa.oauth2.authservice.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

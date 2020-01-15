@@ -1,8 +1,8 @@
-package com.mostafa.accountservice.service;
+package com.mostafa.oauth2.accountservice.service;
 
-import com.mostafa.accountservice.client.AuthServiceFeignClient;
-import com.mostafa.accountservice.dto.UserDto;
-import com.mostafa.accountservice.dto.UserRegistrationDto;
+import com.mostafa.oauth2.accountservice.client.AuthServiceFeignClient;
+import com.mostafa.oauth2.accountservice.dto.UserDto;
+import com.mostafa.oauth2.accountservice.dto.UserRegistrationDto;
 import org.springframework.stereotype.Service;
 
 @Service

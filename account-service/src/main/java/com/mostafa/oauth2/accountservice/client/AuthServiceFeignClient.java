@@ -1,7 +1,7 @@
-package com.mostafa.accountservice.client;
+package com.mostafa.oauth2.accountservice.client;
 
-import com.mostafa.accountservice.dto.UserDto;
-import com.mostafa.accountservice.dto.UserRegistrationDto;
+import com.mostafa.oauth2.accountservice.dto.UserDto;
+import com.mostafa.oauth2.accountservice.dto.UserRegistrationDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

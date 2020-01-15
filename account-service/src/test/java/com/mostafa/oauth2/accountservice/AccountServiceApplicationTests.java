@@ -1,4 +1,4 @@
-package com.mostafa.configserver;
+package com.mostafa.oauth2.accountservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ConfigServerApplicationTests {
+public class AccountServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

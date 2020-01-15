@@ -1,4 +1,4 @@
-package com.mostafa.authservice.util;
+package com.mostafa.oauth2.authservice.util;
 
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;

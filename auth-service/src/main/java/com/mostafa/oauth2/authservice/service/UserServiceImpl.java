@@ -1,8 +1,8 @@
-package com.mostafa.authservice.service;
+package com.mostafa.oauth2.authservice.service;
 
-import com.mostafa.authservice.domain.User;
-import com.mostafa.authservice.enums.Authorities;
-import com.mostafa.authservice.repository.UserRepository;
+import com.mostafa.oauth2.authservice.domain.User;
+import com.mostafa.oauth2.authservice.enums.Authorities;
+import com.mostafa.oauth2.authservice.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
         String hash = passwordEncoder.encode(user.getPassword());
         user.setPassword(hash);
         user.setActivated(Boolean.TRUE); // TODO send sms or email with code for activation
-        user.setAuthorities(new HashSet<>(Collections.singletonList(Authorities.ROLE_USER)));
+        user.setAuthorities(new HashSet(Collections.singletonList(Authorities.ROLE_USER)));
 
         // TODO other routines on account creation
 

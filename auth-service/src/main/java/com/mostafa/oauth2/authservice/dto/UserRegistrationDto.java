@@ -1,4 +1,4 @@
-package com.mostafa.authservice.dto;
+package com.mostafa.oauth2.authservice.dto;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

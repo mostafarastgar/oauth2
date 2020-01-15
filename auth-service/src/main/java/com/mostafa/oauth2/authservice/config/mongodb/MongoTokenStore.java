@@ -1,7 +1,7 @@
-package com.mostafa.authservice.config.mongodb;
+package com.mostafa.oauth2.authservice.config.mongodb;
 
-import com.mostafa.authservice.domain.MongoAccessToken;
-import com.mostafa.authservice.domain.MongoRefreshToken;
+import com.mostafa.oauth2.authservice.domain.MongoAccessToken;
+import com.mostafa.oauth2.authservice.domain.MongoRefreshToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

@@ -1,6 +1,6 @@
-package com.mostafa.authservice.service;
+package com.mostafa.oauth2.authservice.service;
 
-import com.mostafa.authservice.repository.AuthClientRepository;
+import com.mostafa.oauth2.authservice.repository.AuthClientRepository;
 import org.springframework.security.oauth2.provider.ClientDetails;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.stereotype.Service;

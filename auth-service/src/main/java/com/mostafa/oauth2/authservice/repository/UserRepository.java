@@ -1,6 +1,6 @@
-package com.mostafa.authservice.repository;
+package com.mostafa.oauth2.authservice.repository;
 
-import com.mostafa.authservice.domain.User;
+import com.mostafa.oauth2.authservice.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

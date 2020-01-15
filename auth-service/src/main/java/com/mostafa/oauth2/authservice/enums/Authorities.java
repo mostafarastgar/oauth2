@@ -1,4 +1,4 @@
-package com.mostafa.authservice.enums;
+package com.mostafa.oauth2.authservice.enums;
 
 import org.springframework.security.core.GrantedAuthority;
 

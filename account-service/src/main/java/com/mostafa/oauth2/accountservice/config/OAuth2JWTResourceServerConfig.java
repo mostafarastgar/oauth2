@@ -1,4 +1,4 @@
-package com.mostafa.accountservice.config;
+package com.mostafa.oauth2.accountservice.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;

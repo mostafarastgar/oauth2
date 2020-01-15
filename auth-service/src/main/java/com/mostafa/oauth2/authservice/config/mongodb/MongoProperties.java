@@ -1,4 +1,4 @@
-package com.mostafa.authservice.config.mongodb;
+package com.mostafa.oauth2.authservice.config.mongodb;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

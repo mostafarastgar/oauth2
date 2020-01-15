@@ -1,4 +1,4 @@
-package com.mostafa.authservice.config;
+package com.mostafa.oauth2.authservice.config;
 
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;

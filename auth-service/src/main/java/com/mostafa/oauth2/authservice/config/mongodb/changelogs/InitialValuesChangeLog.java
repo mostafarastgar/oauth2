@@ -1,10 +1,10 @@
-package com.mostafa.authservice.config.mongodb.changelogs;
+package com.mostafa.oauth2.authservice.config.mongodb.changelogs;
 
 import com.github.mongobee.changeset.ChangeLog;
 import com.github.mongobee.changeset.ChangeSet;
-import com.mostafa.authservice.domain.AuthClientDetails;
-import com.mostafa.authservice.domain.User;
-import com.mostafa.authservice.enums.Authorities;
+import com.mostafa.oauth2.authservice.domain.AuthClientDetails;
+import com.mostafa.oauth2.authservice.domain.User;
+import com.mostafa.oauth2.authservice.enums.Authorities;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

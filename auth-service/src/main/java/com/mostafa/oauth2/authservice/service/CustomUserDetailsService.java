@@ -1,6 +1,6 @@
-package com.mostafa.authservice.service;
+package com.mostafa.oauth2.authservice.service;
 
-import com.mostafa.authservice.repository.UserRepository;
+import com.mostafa.oauth2.authservice.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

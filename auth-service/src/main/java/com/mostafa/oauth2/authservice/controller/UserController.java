@@ -1,9 +1,9 @@
-package com.mostafa.authservice.controller;
+package com.mostafa.oauth2.authservice.controller;
 
-import com.mostafa.authservice.domain.User;
-import com.mostafa.authservice.dto.UserDto;
-import com.mostafa.authservice.dto.UserRegistrationDto;
-import com.mostafa.authservice.service.UserService;
+import com.mostafa.oauth2.authservice.domain.User;
+import com.mostafa.oauth2.authservice.dto.UserDto;
+import com.mostafa.oauth2.authservice.dto.UserRegistrationDto;
+import com.mostafa.oauth2.authservice.service.UserService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

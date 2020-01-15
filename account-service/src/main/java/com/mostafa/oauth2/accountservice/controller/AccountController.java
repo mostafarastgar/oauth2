@@ -1,8 +1,8 @@
-package com.mostafa.accountservice.controller;
+package com.mostafa.oauth2.accountservice.controller;
 
-import com.mostafa.accountservice.dto.UserDto;
-import com.mostafa.accountservice.dto.UserRegistrationDto;
-import com.mostafa.accountservice.service.AccountService;
+import com.mostafa.oauth2.accountservice.dto.UserDto;
+import com.mostafa.oauth2.accountservice.dto.UserRegistrationDto;
+import com.mostafa.oauth2.accountservice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;

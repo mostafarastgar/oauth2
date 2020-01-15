@@ -1,4 +1,4 @@
-package com.mostafa.accountservice;
+package com.mostafa.oauth2.accountservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
